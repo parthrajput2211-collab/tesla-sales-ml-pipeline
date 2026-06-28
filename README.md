@@ -1,28 +1,31 @@
 # 🚗 End-to-End Machine Learning Pipeline on Tesla Sales & Price Data
 
-## 📌 Project Overview
+## 📖 Overview
 
 This project demonstrates a complete machine learning workflow using Tesla vehicle production and delivery data from **2015–2025**.
 
-The notebook covers every stage of a typical machine learning pipeline, from data preprocessing to predictive modeling and time series forecasting.
+The workflow includes:
+
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Regression Modeling
+- Hyperparameter Tuning
+- Time Series Forecasting
 
 ---
 
 ## 🎯 Objectives
 
-- Clean and preprocess the dataset
-- Perform Exploratory Data Analysis (EDA)
-- Engineer useful features
-- Train regression models
-- Compare model performance
-- Tune model hyperparameters
-- Forecast future deliveries using ARIMA
+- Clean and preprocess Tesla sales data.
+- Explore trends using data visualization.
+- Build regression models to predict estimated deliveries.
+- Optimize model performance using GridSearchCV.
+- Forecast future deliveries using the ARIMA model.
 
 ---
 
-## 📊 Dataset
-
-The dataset contains Tesla sales and production information including:
+## 📂 Dataset Features
 
 - Year
 - Month
@@ -30,11 +33,11 @@ The dataset contains Tesla sales and production information including:
 - Model
 - Production Units
 - Estimated Deliveries
-- Average Price
-- Battery Capacity
-- Range
+- Average Price (USD)
+- Battery Capacity (kWh)
+- Range (km)
 - Charging Stations
-- CO₂ Saved
+- CO₂ Saved (tons)
 
 ---
 
@@ -51,16 +54,16 @@ The dataset contains Tesla sales and production information including:
 
 ---
 
-## 📈 Machine Learning Models
+## 🤖 Machine Learning Models
 
 - Linear Regression
 - Random Forest Regressor
-- Hyperparameter Tuning using GridSearchCV
-- ARIMA Time Series Forecasting
+- GridSearchCV (Hyperparameter Tuning)
+- ARIMA (Time Series Forecasting)
 
 ---
 
-## 📉 Evaluation Metrics
+## 📊 Evaluation Metrics
 
 - Mean Absolute Error (MAE)
 - Root Mean Squared Error (RMSE)
@@ -68,7 +71,7 @@ The dataset contains Tesla sales and production information including:
 
 ---
 
-## 📂 Project Structure
+## 📁 Repository Structure
 
 ```
 tesla-sales-ml-pipeline/
@@ -76,22 +79,20 @@ tesla-sales-ml-pipeline/
 ├── End_to_End_ML_Pipeline_on_Tesla_Sales_and_Price_Data.ipynb
 ├── tesla_deliveries_dataset_2015_2025.csv
 ├── README.md
-├── requirements.txt
 └── .gitignore
 ```
 
 ---
 
-## 🚀 Future Improvements
+## 🚀 Future Enhancements
 
 - Interactive Tableau Dashboard
-- Streamlit Web Application
-- Advanced Forecasting using Prophet or LSTM
-- Model Deployment with Flask
+- Streamlit Deployment
+- Advanced Forecasting Models
+- Interactive Business Dashboard
 
 ---
 
 ## 👨‍💻 Author
 
 **Parth Rohilla**
-
